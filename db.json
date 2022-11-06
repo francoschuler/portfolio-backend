@@ -127,7 +127,7 @@
   "projects": [
     {
       "title": "Portfolio",
-      "description": "Portfolio personal en el que se encuentra en este momento.",
+      "description": "Portfolio personal con una interfaz completamente editable. El proyecto está construido de tal forma que el administrador del portfolio puede iniciar sesión y personalizar todo el contenido del mismo.",
       "skills": "Angular,Frontend,Web Development, Problem solving",
       "urlImg": "https://raw.githubusercontent.com/francoschuler/portfolio/main/portfolio-frontend/cover.jpeg",
       "urlDemo": "https://francoschuler.github.io/portfolio/",
@@ -145,7 +145,7 @@
     },
     {
       "title": "Inventory App",
-      "description": "Proyecto de control de inventario",
+      "description": "Proyecto de control de inventario construido con Angular y Springboot.",
       "skills": "Angular, Springboot, Javascript, ChartJS, Material Angular",
       "urlImg": "https://raw.githubusercontent.com/francoschuler/InventoryProject_Frontend/main/cover-inventory.jpeg",
       "urlDemo": "#",
@@ -153,10 +153,31 @@
       "id": 3
     }
   ],
-  "users_auth": [
+  "messages": [
+    {
+      "id": 1,
+      "name": "",
+      "email": "",
+      "message": ""
+    },
+    {
+      "name": "Franco Exequiel Schüler",
+      "email": "franschuler13@gmail.com",
+      "message": "Hola mensaje de prueba jeje",
+      "id": 2
+    },
+    {
+      "name": "Franco Exequiel Schüler",
+      "email": "franschuler13@gmail.com",
+      "message": "Mensaje de prueba 2 jeje",
+      "id": 3
+    }
+  ],
+  "users": [
     {
       "email": "franschuler13@gmail.com",
-      "password": "fran123"
+      "password": "$2a$10$sEkFI.2e.okS3mBpx2J7ce5Ojw.nli3q1UX8FSDsme3pKL2d6sDvK",
+      "id": 2
     }
   ]
 }
