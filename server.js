@@ -1,9 +1,11 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
+const auth = require('json-server-auth');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
+server.use(auth);
 server.use(middlewares);
 server.use(router);
 
