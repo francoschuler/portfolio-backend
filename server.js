@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 server.db = router.db;
 
 server.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', `http://localhost:4200`);
+    res.header('Access-Control-Allow-Origin', `https://francoschuler.github.io`);
     res.header('Access-Control-Allow-Headers', '*');
     next();
   })
