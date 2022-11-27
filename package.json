@@ -4,7 +4,7 @@
   "description": "Simple json database to deploy to the host of your choice",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js db.json"
   },
   "keywords": [
     "json-server,heroku, node, REST API"
@@ -16,6 +16,7 @@
     "json-server": "^0.17.0",
     "json-server-auth": "^2.1.0",
     "jwt-decode": "^3.1.2",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.20"
   }
 }
