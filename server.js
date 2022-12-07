@@ -8,21 +8,21 @@ const port = process.env.PORT || 3000;
 
 server.db = router.db;
 
-// Set up a domainList and check against it:
-const domainList = ['http://localhost:3000', 'https://portfolio-mockbackend.herokuapp.com']
+// // Set up a domainList and check against it:
+// const domainList = ['http://localhost:3000', 'https://portfolio-mockbackend.herokuapp.com']
 
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (domainList.indexOf(origin) !== -1) {
-      callback(null, true)
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
-  },
-}
+// const corsOptions = {
+//   origin: function (origin, callback) {
+//     if (domainList.indexOf(origin) !== -1) {
+//       callback(null, true)
+//     } else {
+//       callback(new Error('Not allowed by CORS'))
+//     }
+//   },
+// }
 
 // Then pass them to cors:
-server.use(cors(corsOptions));
+server.use(cors());
 server.use(auth);
 server.use(middlewares);
 server.use(router);
