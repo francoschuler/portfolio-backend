@@ -1,82 +1,96 @@
 {
   "educations": [
     {
+      "title": "C.E. Villa de Alcorcón",
+      "subtitle": "Bachillerato Certificate",
+      "period": "2018",
+      "description": "Final Mark of 9.5 out of 10.",
+      "id": 1
+    },
+    {
       "title": "Universidad Carlos III de Madrid",
-      "subtitle": "Degree in Computer Engineering (Final Average of 7.5 out of 10). Final Degree Project with a grade of 9.7 out of 10.",
+      "subtitle": "Degree in Computer Engineering",
       "period": "2018-2022",
-      "description": "Prueba",
+      "description": "Final Average Mark of 7.5 out of 10. Final Degree Project Mark  of 9.7 out of 10.",
       "id": 2
     },
     {
-      "title": "Fullstack Developer'",
-      "subtitle": "Udemy course including technologies like Angular and Springboot",
-      "period": "2022",
-      "description": "Prueba",
+      "title": "Udemy Course",
+      "subtitle": "Spring Boot and Angular: Creating web apps as a Fullstack Developer",
+      "period": "September, 2022",
+      "description": "27 hour Udemy Course where I learnt how to develop a complete web application with Angular as Frontend technology and Springboot as Backend technology.",
       "id": 3
     },
     {
-      "title": "Fullstack Developer Course",
-      "subtitle": "Udemy Course",
-      "period": "2022",
-      "description": "Udemy course using technologies like Angular and Springboot",
+      "title": "Udemy Course",
+      "subtitle": "Angular 14 - Beginner Practical Guide [2022]",
+      "period": "October, 2022",
+      "description": "8,5 hour Udemy Course where I learnt the last features of Angular 14.",
       "id": 4
+    },
+    {
+      "title": "B2 (First Certficiate)",
+      "subtitle": "Cambridge Assessment International Education",
+      "period": "November, 2021 (No Expiration Date)",
+      "description": "First Certificate issued by Cambridge Assessment International Education.",
+      "id": 5
     }
   ],
   "employments": [
     {
-      "title": "Frontend Developer",
-      "subtitle": "Alcorcon, Madrid",
-      "period": "2020-2021",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quasi dolorem a pariatur in ipsa numquam ",
+      "title": "Fullstack Developer Intern",
+      "subtitle": "Vipera (now Fabrick)",
+      "period": "June 2021 - August 2021",
+      "description": "I was involved in several tasks as Frontend, Backend, and Data Developer working on web apps for lead banking companies. ",
       "id": 1
     },
     {
       "title": "Extracurricular IT Teacher",
-      "subtitle": "Alcorcon, Madrid",
-      "period": "2020-2021",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. ",
+      "subtitle": "Villa de Alcorcón School",
+      "period": "September 2020 - November 2021",
+      "description": "I worked teaching students with programs like Office (Excel, Word, Visual Basic, etc.) and also teaching techniques like Mechanografy or Basic Programming Skills.",
       "id": 2
+    },
+    {
+      "title": "Software Engineer Intern",
+      "subtitle": "NielsenIQ",
+      "period": "May 2022 - July 2022",
+      "description": "2 months of internship receiving training in tools used in the company such as QlikView, QlikSense, C, Ajax, etc. and carrying out troubleshooting.",
+      "id": 3
+    },
+    {
+      "title": "Private Teacher",
+      "subtitle": "Self-employed",
+      "period": "February 2020 - October 2022",
+      "description": "I worked teaching ESO and Bachillerato students with a wide variety of subjects such as Math, Physics, History, English, Chemistry, etc. Also, I teach college students some of the most used technologies currently, such as Java, SQL, Python, Spring, Javascript, HTML, CSS, etc.",
+      "id": 4
+    },
+    {
+      "title": "Frontend Developer",
+      "subtitle": "Fabrick",
+      "period": "October 2022 - Present",
+      "description": "Selenium Testing · Amazon S3 · Google Analytics · SASS · TypeScript · Bootstrap · Angular Material · Angular · HTML5 · JavaScript · Cascading Style Sheets (CSS)",
+      "id": 5
     }
   ],
   "skills": [
     {
-      "name": "Python/Django",
-      "icon": "fa-brands fa-python",
-      "stack": "Backend",
-      "level": 70,
-      "id": 4
-    },
-    {
       "name": "HTML",
       "icon": "fa-brands fa-html5",
       "stack": "Frontend",
-      "level": 50,
+      "level": 100,
       "id": 6
-    },
-    {
-      "name": "Javascript",
-      "icon": "fa-brands fa-js",
-      "stack": "Frontend",
-      "level": 80,
-      "id": 8
     },
     {
       "name": "Springboot",
       "icon": "fa-solid fa-feather-pointed",
       "stack": "Backend",
-      "level": 50,
+      "level": 75,
       "id": 9
     },
     {
-      "name": "Docker",
-      "icon": "fa-brands fa-docker",
-      "stack": "Others",
-      "level": 50,
-      "id": 10
-    },
-    {
-      "name": "Github",
-      "icon": "fa-brands fa-github",
+      "name": "Git/Github/Gitlab",
+      "icon": "fa-brands fa-git",
       "stack": "Others",
       "level": 100,
       "id": 11
@@ -85,21 +99,14 @@
       "name": "CSS",
       "icon": "fa-brands fa-css3-alt",
       "stack": "Frontend",
-      "level": 80,
-      "id": 12
-    },
-    {
-      "name": "Angular",
-      "icon": "fa-brands fa-angular",
-      "stack": "Frontend",
       "level": 75,
-      "id": 13
+      "id": 12
     },
     {
       "name": "PHP",
       "icon": "fa-brands fa-php",
       "stack": "Backend",
-      "level": 45,
+      "level": 30,
       "id": 14
     },
     {
@@ -113,14 +120,63 @@
       "name": "Node JS",
       "icon": "fa-brands fa-node",
       "stack": "Backend",
-      "level": 74,
+      "level": 25,
       "id": 16
+    },
+    {
+      "name": "Javascript",
+      "icon": "fa-brands fa-js",
+      "stack": "Frontend",
+      "level": 75,
+      "id": 17
+    },
+    {
+      "name": "Angular (13+)",
+      "icon": "fa-brands fa-angular",
+      "stack": "Frontend",
+      "level": 75,
+      "id": 18
+    },
+    {
+      "name": "Selenium Testing",
+      "icon": "fa-solid fa-check",
+      "stack": "Frontend",
+      "level": 50,
+      "id": 19
+    },
+    {
+      "name": "React",
+      "icon": "fa-brands fa-react",
+      "stack": "Frontend",
+      "level": 25,
+      "id": 20
+    },
+    {
+      "name": "Python/Django",
+      "icon": "fa-brands fa-python",
+      "stack": "Backend",
+      "level": 25,
+      "id": 21
+    },
+    {
+      "name": "Google Analytics 4",
+      "icon": "fa-brands fa-google",
+      "stack": "Others",
+      "level": 75,
+      "id": 22
+    },
+    {
+      "name": "Docker",
+      "icon": "fa-brands fa-docker",
+      "stack": "Others",
+      "level": 50,
+      "id": 23
     }
   ],
   "projects": [
     {
       "title": "Portfolio",
-      "description": "Portfolio personal con una interfaz completamente editable. El proyecto está construido de tal forma que el administrador del portfolio puede iniciar sesión y personalizar todo el contenido del mismo.",
+      "description": "Personal portfolio with a fully editable interface. The project is built in such a way that the administrator can log in and customize all the content of the portfolio.",
       "skills": "Angular,Frontend,Web Development, Problem solving",
       "urlImg": "https://raw.githubusercontent.com/francoschuler/portfolio/main/portfolio-frontend/cover.jpeg",
       "urlDemo": "https://francoschuler.github.io/portfolio/",
@@ -129,7 +185,7 @@
     },
     {
       "title": "Movies App",
-      "description": "Aplicación web que recomienda las películas, series y shows de televisión más importantes del momento. Contiene un buscador y toda la información relevante de las películas y series.",
+      "description": "Web application that recommends the most important movies, series and TV shows of the moment. It contains a search engine and all relevant information about movies and series.",
       "skills": "Angular,Frontend,Web",
       "urlImg": "https://raw.githubusercontent.com/francoschuler/MoviesApp/main/cover-movies.jpeg",
       "urlDemo": "https://francoschuler.github.io/MoviesApp/home",
@@ -138,7 +194,7 @@
     },
     {
       "title": "Inventory App",
-      "description": "Proyecto de control de inventario construido con Angular y Springboot.",
+      "description": "Inventory control project built with Angular and Springboot.",
       "skills": "Angular, Springboot, Javascript, ChartJS, Material Angular",
       "urlImg": "https://raw.githubusercontent.com/francoschuler/InventoryProject_Frontend/main/cover-inventory.jpeg",
       "urlDemo": "#",
